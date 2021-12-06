@@ -1,0 +1,20 @@
+.expand {
+  cursor: pointer;
+  transform: 500ms;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+.expand:hover {
+  background-color: #dddddd;
+}
+
+.collapsible {
+  display: none;
+}
+
+.collapsible-expand {
+  display: block;
+}
